@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile_App.MainPage">
+
+    <StackLayout BackgroundColor="Black" >
+        <Image Source="https://lh3.googleusercontent.com/LcBNYzmhjt6FjBQCj5PVfhAFz_W_4ZtQxRTKA5V32LYJ8v8Ue_ZSYviRrAMScw76S0c"/>
+        <Frame Padding="24" CornerRadius="0" BackgroundColor="Black">
+            <Label Text="TymeBank" HorizontalTextAlignment="Center" TextColor="white" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Welcome" x:Name="TymeBank" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center"  TextColor="White" />
+
+        <Button Text="LOG IN" Clicked="Button_Clicked" BackgroundColor="Yellow"/>
+        <Label Text="Forgot your Login PIN?" TextColor="White" />
+        <Label Text="Need help? Contact Us" TextColor="White"/>
+
+        <Button Text="Add to Goal" Clicked="Button_Clicked" BackgroundColor="Yellow"/>
+        <Button Text="Pay Someone" Clicked="Button_Clicked" BackgroundColor="Yellow"/>
+        <Button Text="Buy" Clicked="Button_Clicked" BackgroundColor="Yellow"/>
+        <Button Text="Cash" Clicked="Button_Clicked" BackgroundColor="Yellow"/>
+
+    </StackLayout>
+
+</ContentPage>
